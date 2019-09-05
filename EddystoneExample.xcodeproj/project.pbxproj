@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C9C2912305873B00B4D376 /* PlotProjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9C2902305873B00B4D376 /* PlotProjects.framework */; };
+		96C9C2922305876500B4D376 /* PlotProjects.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9C2902305873B00B4D376 /* PlotProjects.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96C9C2952305955C00B4D376 /* PlotEddystoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C9C2942305955C00B4D376 /* PlotEddystoneManager.m */; };
+		F846E03B22EA07E8002FA053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F846E03A22EA07E8002FA053 /* AppDelegate.m */; };
+		F846E04122EA07E8002FA053 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F846E04022EA07E8002FA053 /* ViewController.m */; };
+		F846E04422EA07E8002FA053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F846E04222EA07E8002FA053 /* Main.storyboard */; };
+		F846E04622EA07EA002FA053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F846E04522EA07EA002FA053 /* Assets.xcassets */; };
+		F846E04922EA07EA002FA053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F846E04722EA07EA002FA053 /* LaunchScreen.storyboard */; };
+		F846E05622EAE88B002FA053 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F846E05522EAE88B002FA053 /* libsqlite3.tbd */; };
+		F846E05822EAE895002FA053 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F846E05722EAE894002FA053 /* CoreLocation.framework */; };
+		F846E05A22EAE89F002FA053 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F846E05922EAE89E002FA053 /* MessageUI.framework */; };
+		F846E05C22EAE8A7002FA053 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F846E05B22EAE8A7002FA053 /* UserNotifications.framework */; };
+		F846E06522EAEC9F002FA053 /* plotconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = F846E06422EAEC9F002FA053 /* plotconfig.json */; };
+		F8B5F1EE22F0835E00C903DA /* ESSBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5F1E822F0835D00C903DA /* ESSBeaconScanner.m */; };
+		F8B5F1EF22F0835E00C903DA /* ESSEddystone.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5F1EA22F0835D00C903DA /* ESSEddystone.m */; };
+		F8B5F1F022F0835E00C903DA /* ESSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5F1EB22F0835E00C903DA /* ESSTimer.m */; };
+		F8B5F21722F08D3A00C903DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5F21622F08D3A00C903DA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F846E06822EAEE24002FA053 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				96C9C2922305876500B4D376 /* PlotProjects.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96C9C2902305873B00B4D376 /* PlotProjects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlotProjects.framework; path = "../Library/Developer/Xcode/DerivedData/PlotRetail-cdvtnmkaalmakaelkeshxkizmssf/Build/Products/Debug-iphoneos/PlotProjects.framework"; sourceTree = "<group>"; };
+		96C9C2932305954800B4D376 /* PlotEddystoneManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlotEddystoneManager.h; sourceTree = "<group>"; };
+		96C9C2942305955C00B4D376 /* PlotEddystoneManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlotEddystoneManager.m; sourceTree = "<group>"; };
+		B367476670FA2DE462D4A88F /* Pods-EddystoneExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EddystoneExample.release.xcconfig"; path = "Target Support Files/Pods-EddystoneExample/Pods-EddystoneExample.release.xcconfig"; sourceTree = "<group>"; };
+		DB0E6A3B401A1F1AC47DF97B /* Pods-EddystoneExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EddystoneExample.debug.xcconfig"; path = "Target Support Files/Pods-EddystoneExample/Pods-EddystoneExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F846E03622EA07E8002FA053 /* EddystoneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EddystoneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F846E03922EA07E8002FA053 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F846E03A22EA07E8002FA053 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F846E03F22EA07E8002FA053 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F846E04022EA07E8002FA053 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F846E04322EA07E8002FA053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F846E04522EA07EA002FA053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F846E04822EA07EA002FA053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F846E04A22EA07EA002FA053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F846E05522EAE88B002FA053 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F846E05722EAE894002FA053 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F846E05922EAE89E002FA053 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F846E05B22EAE8A7002FA053 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F846E06422EAEC9F002FA053 /* plotconfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plotconfig.json; sourceTree = "<group>"; };
+		F8B5F1E822F0835D00C903DA /* ESSBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSBeaconScanner.m; sourceTree = "<group>"; };
+		F8B5F1E922F0835D00C903DA /* ESSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSTimer.h; sourceTree = "<group>"; };
+		F8B5F1EA22F0835D00C903DA /* ESSEddystone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSEddystone.m; sourceTree = "<group>"; };
+		F8B5F1EB22F0835E00C903DA /* ESSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSTimer.m; sourceTree = "<group>"; };
+		F8B5F1EC22F0835E00C903DA /* ESSBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSBeaconScanner.h; sourceTree = "<group>"; };
+		F8B5F1ED22F0835E00C903DA /* ESSEddystone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSEddystone.h; sourceTree = "<group>"; };
+		F8B5F21622F08D3A00C903DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F846E03322EA07E8002FA053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F846E05C22EAE8A7002FA053 /* UserNotifications.framework in Frameworks */,
+				96C9C2912305873B00B4D376 /* PlotProjects.framework in Frameworks */,
+				F846E05A22EAE89F002FA053 /* MessageUI.framework in Frameworks */,
+				F846E05822EAE895002FA053 /* CoreLocation.framework in Frameworks */,
+				F846E05622EAE88B002FA053 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93880AD1EF4B7F7FC653EF24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB0E6A3B401A1F1AC47DF97B /* Pods-EddystoneExample.debug.xcconfig */,
+				B367476670FA2DE462D4A88F /* Pods-EddystoneExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F846E02D22EA07E8002FA053 = {
+			isa = PBXGroup;
+			children = (
+				F8B5F21622F08D3A00C903DA /* main.m */,
+				F846E03822EA07E8002FA053 /* EddystoneExample */,
+				F846E03722EA07E8002FA053 /* Products */,
+				F846E05222EA0B91002FA053 /* Frameworks */,
+				93880AD1EF4B7F7FC653EF24 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F846E03722EA07E8002FA053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F846E03622EA07E8002FA053 /* EddystoneExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F846E03822EA07E8002FA053 /* EddystoneExample */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5F1E722F0834A00C903DA /* Beacon Scanner */,
+				F846E03922EA07E8002FA053 /* AppDelegate.h */,
+				F846E03A22EA07E8002FA053 /* AppDelegate.m */,
+				F846E03F22EA07E8002FA053 /* ViewController.h */,
+				F846E04022EA07E8002FA053 /* ViewController.m */,
+				F846E04222EA07E8002FA053 /* Main.storyboard */,
+				F846E04522EA07EA002FA053 /* Assets.xcassets */,
+				F846E04722EA07EA002FA053 /* LaunchScreen.storyboard */,
+				F846E04A22EA07EA002FA053 /* Info.plist */,
+				F846E06422EAEC9F002FA053 /* plotconfig.json */,
+				96C9C2932305954800B4D376 /* PlotEddystoneManager.h */,
+				96C9C2942305955C00B4D376 /* PlotEddystoneManager.m */,
+			);
+			path = EddystoneExample;
+			sourceTree = "<group>";
+		};
+		F846E05222EA0B91002FA053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C9C2902305873B00B4D376 /* PlotProjects.framework */,
+				F846E05B22EAE8A7002FA053 /* UserNotifications.framework */,
+				F846E05922EAE89E002FA053 /* MessageUI.framework */,
+				F846E05722EAE894002FA053 /* CoreLocation.framework */,
+				F846E05522EAE88B002FA053 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8B5F1E722F0834A00C903DA /* Beacon Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5F1EC22F0835E00C903DA /* ESSBeaconScanner.h */,
+				F8B5F1E822F0835D00C903DA /* ESSBeaconScanner.m */,
+				F8B5F1ED22F0835E00C903DA /* ESSEddystone.h */,
+				F8B5F1EA22F0835D00C903DA /* ESSEddystone.m */,
+				F8B5F1E922F0835D00C903DA /* ESSTimer.h */,
+				F8B5F1EB22F0835E00C903DA /* ESSTimer.m */,
+			);
+			path = "Beacon Scanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F846E03522EA07E8002FA053 /* EddystoneExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F846E04F22EA07EA002FA053 /* Build configuration list for PBXNativeTarget "EddystoneExample" */;
+			buildPhases = (
+				57EE2D15F75D351A56DB985C /* [CP] Check Pods Manifest.lock */,
+				F846E03222EA07E8002FA053 /* Sources */,
+				F846E03322EA07E8002FA053 /* Frameworks */,
+				F846E03422EA07E8002FA053 /* Resources */,
+				F846E06822EAEE24002FA053 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EddystoneExample;
+			productName = EddystoneExample;
+			productReference = F846E03622EA07E8002FA053 /* EddystoneExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F846E02E22EA07E8002FA053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Plot Projects";
+				TargetAttributes = {
+					F846E03522EA07E8002FA053 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = F846E03122EA07E8002FA053 /* Build configuration list for PBXProject "EddystoneExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F846E02D22EA07E8002FA053;
+			productRefGroup = F846E03722EA07E8002FA053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F846E03522EA07E8002FA053 /* EddystoneExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F846E03422EA07E8002FA053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F846E06522EAEC9F002FA053 /* plotconfig.json in Resources */,
+				F846E04922EA07EA002FA053 /* LaunchScreen.storyboard in Resources */,
+				F846E04622EA07EA002FA053 /* Assets.xcassets in Resources */,
+				F846E04422EA07E8002FA053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57EE2D15F75D351A56DB985C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EddystoneExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F846E03222EA07E8002FA053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F846E04122EA07E8002FA053 /* ViewController.m in Sources */,
+				F8B5F1EF22F0835E00C903DA /* ESSEddystone.m in Sources */,
+				F846E03B22EA07E8002FA053 /* AppDelegate.m in Sources */,
+				F8B5F1F022F0835E00C903DA /* ESSTimer.m in Sources */,
+				96C9C2952305955C00B4D376 /* PlotEddystoneManager.m in Sources */,
+				F8B5F21722F08D3A00C903DA /* main.m in Sources */,
+				F8B5F1EE22F0835E00C903DA /* ESSBeaconScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F846E04222EA07E8002FA053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F846E04322EA07E8002FA053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F846E04722EA07EA002FA053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F846E04822EA07EA002FA053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F846E04D22EA07EA002FA053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F846E04E22EA07EA002FA053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F846E05022EA07EA002FA053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0E6A3B401A1F1AC47DF97B /* Pods-EddystoneExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CC5LNPAQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EddystoneExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plotprojects.EddystoneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F846E05122EA07EA002FA053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B367476670FA2DE462D4A88F /* Pods-EddystoneExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CC5LNPAQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EddystoneExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plotprojects.EddystoneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F846E03122EA07E8002FA053 /* Build configuration list for PBXProject "EddystoneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F846E04D22EA07EA002FA053 /* Debug */,
+				F846E04E22EA07EA002FA053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F846E04F22EA07EA002FA053 /* Build configuration list for PBXNativeTarget "EddystoneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F846E05022EA07EA002FA053 /* Debug */,
+				F846E05122EA07EA002FA053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F846E02E22EA07E8002FA053 /* Project object */;
+}
