@@ -1,4 +1,4 @@
-# EddystoneExampleIOS
+# Eddystone Example IOS
 
 # Plot External Region Trigger example with Eddystone Beacons
 This project exemplifies how to use the Plot External Region Trigger feature using Eddystone beacons. In this example, we did all the required steps from the plugin integration guide. If you want to know more about the Plot Projects plugin, go to [the Plot Projects website](https://www.plotprojects.com).
